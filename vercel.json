@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/"
+    },
+    {
+      "src": "/about",
+      "dest": "/"
+    },
+    {
+      "src": "/careers",
+      "dest": "/"
+    },
+    {
+      "src": "/blog",
+      "dest": "/"
+    },
+    {
+      "src": "/contact",
+      "dest": "/"
+    },
+    {
+      "src": "/managedKubernetes",
+      "dest": "/"
+    },
+    {
+      "src": "/migrateToCloud",
+      "dest": "/"
+    },
+    {
+      "src": "/customApi",
+      "dest": "/"
+    },
+    {
+      "src": "/multiCloud",
+      "dest": "/"
+    },
+    {
+      "src": "/devops",
+      "dest": "/"
+    },
+    {
+      "src": "/kubernetes",
+      "dest": "/"
+    },
+    {
+      "src": "/redhatOpenshift",
+      "dest": "/"
+    },
+    {
+      "src": "/webApp",
+      "dest": "/"
+    },
+    {
+      "src": "/mobileApp",
+      "dest": "/"
+    },
+    {
+      "src": "/uiux",
+      "dest": "/"
+    },
+    {
+      "src": "/cyberSecurity",
+      "dest": "/"
+    },
+    {
+      "src": "/terms",
+      "dest": "/"
+    },
+    {
+      "src": "/privacy",
+      "dest": "/"
+    }
+  ]
+}
