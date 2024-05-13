@@ -213,8 +213,8 @@ const AboutUs = () => {
           <div className="font-[Lufga-ExtraBold-2] text-[2.3rem] text-black px-6 w-full md:w-1/2 flex flex-wrap">
             <p>
               The <span className="text-[#001eee]">foresight</span>, to think
-              big. <br /> The <span className="text-[#001eee]">vision</span> to
-              make it <br /> happen.
+              big. The <span className="text-[#001eee]">vision</span> to make it{" "}
+              happen.
             </p>
             <p className="font-[Lufga-Light-2] text-[1rem] py-6">
               Commitment, Integrity, Respect and Modesty are the driving <br />{" "}
