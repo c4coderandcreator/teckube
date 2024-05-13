@@ -297,11 +297,9 @@ const ContactUs = () => {
         <div className="justify-self-start sm:justify-self-center">
           <p>
             <span className="font-[Lufga-Bold-2] text-[1.2rem] sm:text-[1.5rem]">
-              INDIA
+              United Emirates
             </span>{" "}
-            <br /> 1385/3, 3rd Floor, 4th Cross,
-            <br /> Tulasi Theather Road, <br />
-            Marathahalli, Bangalore 560037
+            <br /> Technohub 1, DTEC Dubai <br /> Silicon Oasis Dubai
           </p>
         </div>
       </div>
@@ -315,15 +313,17 @@ const ContactUs = () => {
             <br /> 60 Atlantic Ave Suite 200 <br /> Toronto, ON M6K 1X9
           </p>
         </div>
-        <div className="justify-self-start sm:justify-self-center">
+        <div className="justify-self-start sm:justify-self-center sm:ml-9">
           <p>
-            <span className="font-[Lufga-Bold-2] text-[1.2rem] sm:text-[1.5rem]">
-              United Emirates
+            <span className="font-[Lufga-Bold-2] text-[1.2rem] sm:text-[1.5rem] ">
+              INDIA
             </span>{" "}
-            <br /> Technohub 1, DTEC Dubai <br /> Silicon Oasis Dubai
+            <br /> 1385/3, 3rd Floor, 4th Cross,
+            <br /> Tulasi Theather Road, <br />
+            Marathahalli, Bangalore 560037
           </p>
         </div>
-        <div className="justify-self-start sm:justify-self-center mr-14">
+        <div className="justify-self-start sm:justify-self-center ">
           <p>
             <span className="font-[Lufga-Bold-2] text-[1.2rem] sm:text-[1.5rem]">
               United Kingdom
