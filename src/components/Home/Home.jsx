@@ -79,13 +79,13 @@ const Home = () => {
         />
       </div>
       <div>
-        <div className="mx-2 md:mx-24">
+        <div className="mx-2 md:mx-10 lg:mx-24">
           <div className="flex items-center border-b border-black mb-6 pb-4 ">
             <Dot />
             <p className="ml-2 text-black font-[Lufga-Bold-2] ">Who we are ?</p>
           </div>
         </div>
-        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:px-24">
+        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:px-7 lg:px-24">
           <div className="font-[Lufga-ExtraBold-2] text-[2.3rem] text-black px-6 w-full md:w-1/2 flex flex-wrap">
             <p>
               We’re a <span className="text-[#100EEE]">strategic</span> team of
@@ -146,7 +146,7 @@ const Home = () => {
           <div className="font-[Lufga-ExtraBold-2] text-[2.3rem] text-black px-6 w-full md:w-1/2 flex flex-wrap">
             <p></p>
           </div>
-          <div className=" text-[#595959] font-[Lufga-Regular-2] text-[1rem] px-6 md:w-1/2 flex flex-wrap items-center">
+          <div className=" text-[#595959] font-[Lufga-Regular-2] text-[1rem] px-6 lg:w-1/2 flex flex-wrap items-center">
             <p>
               We are trusted by leading companies
               <div className="flex flex-nowrap">
@@ -190,7 +190,7 @@ const Home = () => {
       </div>
       {/* 3rd */}
       <div>
-        <div className="mx-2 md:mx-24 mt-4">
+        <div className="mx-2 md:mx-7 lg:mx-24 mt-4">
           <div className="flex items-center border-b border-[#595959] mb-6 pb-4 ">
             <Dot />
             <p className="ml-2 text-black font-[Lufga-Bold-2] ">
@@ -198,7 +198,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:px-24">
+        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:mx-7 lg:mx-24">
           <div className="font-[Lufga-ExtraBold-2] text-[2.3rem] text-black px-6 w-full md:w-1/2 flex flex-wrap">
             <p>
               Managed Services for
@@ -249,7 +249,7 @@ const Home = () => {
         </div>
 
         {/* 2nd */}
-        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:px-24">
+        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:mx-7 lg:mx-24">
           <div className=" text-[#595959] font-[Lufga-Regular-2] text-[1rem] px-6 md:w-1/2 flex flex-wrap items-center">
             <img
               className="hidden md:block"
@@ -300,7 +300,7 @@ const Home = () => {
           </div>
         </div>
         {/* 3rd */}
-        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:px-24">
+        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:mx-7 lg:mx-24">
           <div className="font-[Lufga-ExtraBold-2] text-[2.3rem] text-black px-6 w-full md:w-1/2 flex flex-wrap">
             <p>
               <span className="text-[#100EEE]"> Custom </span>
@@ -353,7 +353,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#100EEE] p-6 md:p-20 mx-2 md:mx-10 text-[#ffffff]">
+      <div className="bg-[#100EEE] p-6 md:p-20 mx-2 md:mx-4 lg:mx-10 text-[#ffffff]">
         <p className="pb-8 font-[Lufga-Regular-2] ">
           From ideation to release we are your trusted partner
         </p>
@@ -370,7 +370,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 justify-center items-center gap-[1.9rem] py-10">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-center items-center gap-[1.9rem] py-10">
           <div>
             <img
               src="https://raw.githubusercontent.com/c4coderandcreator/tKube/main/Image%20Resource/Home%20Resources/cloud-computing%20Icon.png"
@@ -505,7 +505,7 @@ const Home = () => {
         </div>
         <div
           ref={ref}
-          className="grid grid-cols-1 sm:grid-cols-3 gap-4 items-center justify-center mx-4 md:mx-64 pb-4 sm:pb-20 py-6"
+          className="grid grid-cols-1 sm:grid-cols-3 gap-4 items-center justify-center mx-4 md:mx-20 lg:mx-64 pb-4 sm:pb-20 py-6"
         >
           <div className="flex flex-col items-center justify-center sm:border-r-[1px] border-gray-300">
             <p className="text-[2.1rem] md:text-[3.75rem] text-[#100EEE] font-[Lufga-Bold-2]">
@@ -592,8 +592,8 @@ const Home = () => {
         </div>
       </div>
       {/* 3rd to here */}
-      <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:px-24">
-        <div className="font-[Lufga-ExtraBold-2] text-[2.1rem] text-black px-6 w-full md:w-1/2 flex flex-wrap">
+      <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:mx-7 lg:mx-24">
+        <div className="font-[Lufga-ExtraBold-2] text-[2.1rem] text-black px-1 lg:px-6 w-full md:w-1/2 flex flex-wrap">
           <p>
             <span className="text-black"> Ultimately </span>
             everything begins with an idea
@@ -622,7 +622,7 @@ const Home = () => {
                 <LearnMore />
               </Link>
 
-              <div className=" navbar-end font-[Lufga-Regular-2] font-extrabold mx-4 flex">
+              <div className=" navbar-end font-[Lufga-Regular-2] font-extrabold lg:mx-4 flex">
                 <a className="btn text-white bg-[#001eee] border-[#001eee]">
                   <Link to="contact">Contact Us </Link> {<Arrow />}
                 </a>
