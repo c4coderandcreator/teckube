@@ -10,11 +10,11 @@ const AboutUs = () => {
     <>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-1 sm:gap-5 ml-4 sm:ml-20">
         <div className=" sm:mt-[1.5rem]">
-          <p className="font-extrabold text-left text-[2.2rem] md:text-[3.8rem] leading-[2.7rem] md:leading-[4.7rem] gradient-text">
+          <p className="font-extrabold text-left text-[2.2rem] md:text-[2.8rem] lg:text-[3.8rem] leading-[2.7rem] md:leading-[3.1rem] lg:leading-[4.7rem] gradient-text">
             Tackling modern challenges with innovative solutions
           </p>
         </div>
-        <div className="ml-64">
+        <div className="lg:ml-64">
           <img
             className="hidden sm:block"
             src="https://raw.githubusercontent.com/c4coderandcreator/tKube/4d99acac01967145ebc9718a423635e1424672b9/Image%20Resource/About%20Us/Target%20Illustration.svg"
@@ -22,7 +22,7 @@ const AboutUs = () => {
           />
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:mx-7 text-black font-[Lufga-Regular-2]">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:mx-7 text-black font-[Lufga-Regular-2]">
         <div></div>
         <div className="col-start-2 py-10 mr-4">
           <p>
@@ -200,7 +200,7 @@ const AboutUs = () => {
       </div>{" "} */}
       {/* Next part 2 */}
       <div className="mt-20">
-        <div className="mx-2 sm:mx-24 mt-4">
+        <div className="mx-2 md:mx-7 lg:mx-24 mt-4">
           <div className="flex  items-center border-b border-[#595959] mb-6 pb-4 ">
             <Dot />
             <p className="ml-2 text-black font-[Lufga-Bold-2] ">
@@ -208,9 +208,9 @@ const AboutUs = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-wrap justify-between py-2 md:py-8 md:px-32 sm:ml-60">
+        <div className="flex flex-wrap justify-between py-2 md:py-8 md:px-2 lg:px-16 lg:ml-28">
           <div className="hidden sm:block"></div>
-          <div className="font-[Lufga-ExtraBold-2] text-[2.3rem] text-black px-6 w-full md:w-1/2 flex flex-wrap">
+          <div className="font-[Lufga-ExtraBold-2] text-[2.3rem] text-black lg:px-6 w-full md:w-1/2 flex flex-wrap">
             <p>
               The <span className="text-[#001eee]">foresight</span>, to think
               big. The <span className="text-[#001eee]">vision</span> to make it{" "}
@@ -223,7 +223,7 @@ const AboutUs = () => {
             </p>
           </div>
         </div>
-        <div className="pb-14 grid grid-cols-1 sm:grid-cols-3 place-items-center gap-2 text-black">
+        <div className="pb-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center px-2 gap-4 text-black">
           <div className="w-96 h-[30.75rem] shadow-md m-4 rounded-lg">
             <img
               src="https://raw.githubusercontent.com/c4coderandcreator/tKube/accd5914b2a93d492700d243e7d3d9bc06b2ee79/Image%20Resource/About%20Us/Group%2066.svg"
