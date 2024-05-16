@@ -11,7 +11,7 @@ const Footer = () => {
 
   return (
     <>
-      <div className="mx-2 px-6 md:mx-4 lg:mx-10 py-8 md:py-14 justify-start md:justify-center grid grid-cols-2 md:grid-cols-4 lg:grid-cols-2  md:flex md:flex-wrap gap-6 md:gap-7 lg:gap-24 bg-[#001eee] text-white">
+      <div className="mx-2 px-6 md:mx-2 lg:mx-10 py-8 md:py-14 justify-start md:justify-center grid grid-cols-2 md:grid-cols-4 lg:grid-cols-2  md:flex md:flex-wrap gap-6 md:gap-2 lg:gap-24 bg-[#001eee] text-white">
         <div className="lg:px-4">
           <ul>
             <span className="text-[1.25rem] md:text-[1.5rem] font-[Lufga-Bold-2]">
