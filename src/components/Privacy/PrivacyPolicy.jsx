@@ -9,7 +9,7 @@ const PrivacyPolicy = () => {
           Privacy Policy
         </p>
         <p className="text-center py-6 text-black font-[Lufga-Regular-2]">
-          Document amended December 1, 2024
+          Document amended December 1, 2023
         </p>
       </div>
       <div className="grid  grid-cols-3 sm:mx-20 px-10 pt-2 sm:pt-10 font-[Lufga-Light-2]">
