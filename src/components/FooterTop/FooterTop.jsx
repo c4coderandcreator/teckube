@@ -7,8 +7,8 @@ import LearnMore from "../LearnMore/LearnMore";
 const FooterTop = () => {
   return (
     <>
-      <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:px-24 pb-4">
-        <div className="font-[Lufga-ExtraBold-2] text-[1.5rem] sm:text-[2.3rem] text-black px-6 w-full md:w-1/2 flex flex-wrap">
+      <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:mx-7 lg:mx-24">
+        <div className="font-[Lufga-ExtraBold-2] text-[2.1rem] text-black px-1 lg:px-6 w-full md:w-1/2 flex flex-wrap">
           <p>
             <span className="text-black"> Ultimately </span>
             everything begins with an idea

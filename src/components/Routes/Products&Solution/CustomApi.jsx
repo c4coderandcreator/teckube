@@ -9,14 +9,14 @@ const CustomApi = () => {
   return (
     <>
       {/* first */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-1 sm:gap-5 ml-4 sm:ml-20">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-1 sm:gap-5 ml-4 md:ml-10 lg:ml-20">
         <div className="sm:mt-[1.5rem]">
           <p className="font-extrabold text-left text-[2.2rem] md:text-[3.8rem] leading-[2.7rem] md:leading-[4.7rem] gradient-text">
             {"{ Leverage the power of programmatic design }"}
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 sm:ml-20 text-black font-[Lufga-Regular-2]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 md:ml-10 lg:ml-20 text-black font-[Lufga-Regular-2]">
         <div className=" py-10">
           <p className="mx-4 sm:mx-1">
             At TecKube, smooth integration between your new and existing
@@ -34,7 +34,7 @@ const CustomApi = () => {
       </div>
       {/* second */}
       <div>
-        <div className="mx-2 md:mx-24">
+        <div className="mx-2 md:mx-7 lg:mx-24">
           <div className="flex items-center border-b border-black mb-6 pb-4 ">
             <Dot />
             <p className="ml-2 text-black font-[Lufga-Bold-2] ">
@@ -42,13 +42,13 @@ const CustomApi = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:px-24">
+        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:mx-7 lg:mx-24">
           <div className="font-[Lufga-ExtraBold-2] text-[2.3rem] text-black px-6 w-full md:w-1/2 flex flex-wrap">
             <p>
               Leveraging <span className="text-[#100EEE]">robust</span>,
-              reliable <br className="hidden sm:block" />&
+              reliable <br className="hidden lg:block" />&
               <span className="text-[#100EEE]"> secure</span> API development{" "}
-              <br className="hidden sm:block" />
+              <br className="hidden lg:block" />
               <span className="text-[#100EEE]"> approaches</span>
             </p>
           </div>
@@ -102,7 +102,7 @@ const CustomApi = () => {
         <div className="mx-2 md:mx-24">
           <div className="flex items-center  mb-6 pb-4 "></div>
         </div>
-        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:px-24">
+        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:mx-7 lg:mx-24">
           <div className="font-[Lufga-ExtraBold-2] text-[2.3rem] text-black px-6 w-full md:w-1/2 flex flex-wrap">
             <p></p>
           </div>
@@ -113,7 +113,7 @@ const CustomApi = () => {
                 <div className="font-[Lufga-ExtraBold-2] text-[2.3rem] text-black pt-2">
                   <p>
                     The <span className="text-[#100EEE]">best</span> in class
-                    API <br /> development
+                    API <br className="hidden lg:block" /> development
                     <span className="text-[#100EEE]"> technology</span>
                   </p>
                 </div>
@@ -121,7 +121,7 @@ const CustomApi = () => {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-3 gap-1 m-2 sm:mx-8 md:mx-24 sm:grid-cols-4 md:grid-cols-5 ">
+        <div className="grid grid-cols-3 gap-1 m-2 sm:mx-8 md:mx-7 lg:mx-24 sm:grid-cols-4 md:grid-cols-5 ">
           <img
             className="h-40 w-40 md:h-40 md:w-40"
             src="https://raw.githubusercontent.com/c4coderandcreator/tKube/main/Image%20Resource/CustomApi/Group%2070.png"
@@ -150,7 +150,7 @@ const CustomApi = () => {
         </div>
       </div>
       {/* third */}
-      <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:px-24">
+      <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:mx-7 lg:mx-24">
         <div className=" text-[#595959] font-[Lufga-Regular-2] text-[1rem] px-6 md:w-1/2 flex flex-wrap items-center">
           <img
             className="hidden md:block"
@@ -158,7 +158,7 @@ const CustomApi = () => {
             alt="img"
           />
         </div>
-        <div className="font-[Lufga-ExtraBold-2] text-[2.3rem] text-black px-6 w-full md:w-1/2 flex flex-wrap">
+        <div className="font-[Lufga-ExtraBold-2] text-[2.3rem] text-black px-6 md:px-0 lg:px-6 w-full md:w-1/2 flex flex-wrap">
           <p>
             Our
             <span className="text-[#100EEE]"> API </span>Development service

@@ -139,10 +139,10 @@ const Home = () => {
       </div>
       {/* 2nd */}
       <div>
-        <div className="mx-2 md:mx-24">
+        <div className="mx-2 md:mx-7 lg:mx-24">
           <div className="flex items-center border-b border-[#D9D9D9] mb-6 pb-4 "></div>
         </div>
-        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:px-24">
+        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:mx-7 lg:mx-24">
           <div className="font-[Lufga-ExtraBold-2] text-[2.3rem] text-black px-6 w-full md:w-1/2 flex flex-wrap">
             <p></p>
           </div>

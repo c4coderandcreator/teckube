@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <>
       <div className="mx-2 px-6 md:mx-2 lg:mx-10 py-8 md:py-14 justify-start md:justify-center grid grid-cols-2 md:grid-cols-4 lg:grid-cols-2  md:flex md:flex-wrap gap-6 md:gap-2 lg:gap-24 bg-[#001eee] text-white">
-        <div className="lg:px-4">
+        <div className="lg:px-4 md:mr-4">
           <ul>
             <span className="text-[1.25rem] md:text-[1.5rem] font-[Lufga-Bold-2]">
               Company
@@ -44,14 +44,15 @@ const Footer = () => {
             </Link>
           </ul>
         </div>
-        <div className="lg:px-4">
+        <div className="lg:px-4 md:mr-4">
           <ul>
-            <span className="text-[1.25rem] md:text-[1.5rem] font-[Lufga-Bold-2]">
+            <span className="text-[1.25rem] md:text-[1.5rem] font-[Lufga-Bold-2] ">
               Products
             </span>
             <Link to="managedKubernetes">
               <li className="text-[0.75rem] md:text-[1rem] font-[Lufga-Light-2] mt-3 md:mt-8  pb-1 md:pb-4">
-                Managed Services for <br /> Kubernetes
+                Managed Services <br className="hidden md:block lg:hidden" />{" "}
+                for <br className="block md:hidden lg:block" /> Kubernetes
               </li>
             </Link>
             <Link to="migrateToCloud">
@@ -61,13 +62,14 @@ const Footer = () => {
             </Link>
             <Link to="customApi">
               <li className="text-[0.75rem] md:text-[1rem] font-[Lufga-Light-2] pb-1 md:pb-4">
-                Custom API development <br />
-                services
+                Custom API <br className="hidden md:block lg:hidden" />{" "}
+                development <br />
+                <span className="md:hidden">services</span>
               </li>
             </Link>
           </ul>
         </div>
-        <div className="lg:px-4">
+        <div className="lg:px-4 md:mr-4">
           <ul>
             <span className="text-[1.25rem] md:text-[1.5rem] font-[Lufga-Bold-2]">
               Services
@@ -94,12 +96,13 @@ const Footer = () => {
             </Link>
             <Link to="webApp">
               <li className="text-[0.75rem] md:text-[1rem] font-[Lufga-Light-2] pb-1 md:pb-4">
-                Web App Development
+                Web App <br className="hidden md:block lg:hidden" /> Development
               </li>
             </Link>
             <Link to="mobileApp">
               <li className="text-[0.75rem] md:text-[1rem] font-[Lufga-Light-2] pb-1 md:pb-4">
-                Mobile App Development
+                Mobile App <br className="hidden md:block lg:hidden" />{" "}
+                Development
               </li>
             </Link>
             <Link to="uiux">

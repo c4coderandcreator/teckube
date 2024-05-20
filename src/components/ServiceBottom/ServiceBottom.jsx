@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ServiceBottom = () => {
   return (
     <div className="my-4 sm:my-20">
-      <div className=" font-[Lufga-Regular-2] flex flex-col items-center text-center bg-cover rounded-3xl bg-[url('https://raw.githubusercontent.com/c4coderandcreator/tKube/main/Image%20Resource/ManagedKubernetes/CTA%20Section%20-%20V2-back.png')] mx-1 sm:mx-[15rem] py-10">
+      <div className=" font-[Lufga-Regular-2] flex flex-col items-center text-center bg-cover rounded-3xl bg-[url('https://raw.githubusercontent.com/c4coderandcreator/tKube/main/Image%20Resource/ManagedKubernetes/CTA%20Section%20-%20V2-back.png')] mx-1 md:mx-4 lg:mx-[15rem] py-10">
         <div>
           <p className="font-[Lufga-ExtraBold-2] text-[1.5rem] sm:text-[2.3rem] text-white py-4">
             Improve Efficiency, Boost <br />

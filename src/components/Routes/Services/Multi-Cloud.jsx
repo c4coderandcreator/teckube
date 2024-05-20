@@ -7,14 +7,14 @@ const MultiCloud = () => {
   return (
     <>
       {/* first */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-1 sm:gap-5 ml-4 sm:ml-20">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-1 sm:gap-5 ml-4 md:ml-10 lg:ml-20">
         <div className=" sm:mt-[1.5rem]">
           <p className="font-extrabold text-left text-[2.2rem] md:text-[3.8rem] leading-[2.7rem] md:leading-[4.7rem] gradient-text">
             Accelerate the next phase of your digital products
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 sm:ml-20 text-black font-[Lufga-Regular-2]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 md:ml-10 lg:ml-20 text-black font-[Lufga-Regular-2]">
         <div className=" py-10">
           <p className="mx-4 sm:mx-1">
             Scaling efficiently and rapidly is at the heart of every business's
@@ -33,7 +33,7 @@ const MultiCloud = () => {
       </div>
       {/* third */}
       <div className="mt-6 sm:mt-20">
-        <div className="flex flex-wrap justify-between py-2 md:py-8 px-4 md:px-24">
+        <div className="flex flex-wrap justify-between py-2 md:py-8 px-4 md:px-7 lg:px-24">
           <div className="hidden sm:block"></div>
           <div className="font-[Lufga-ExtraBold-2] text-[1.8rem] sm:text-[2.3rem] text-black w-full flex flex-wrap">
             <p>
@@ -43,7 +43,7 @@ const MultiCloud = () => {
             </p>
           </div>
         </div>
-        <div className="pb-14 grid grid-cols-1 sm:grid-cols-3 place-items-center gap-2 text-black">
+        <div className="pb-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-2 text-black">
           <div className="w-96 h-[30.75rem] shadow-md m-4 p-4 rounded-lg">
             <img
               src="https://raw.githubusercontent.com/c4coderandcreator/tKube/main/Image%20Resource/Multi-Cloud/Group%2066-0.png"
@@ -137,8 +137,8 @@ const MultiCloud = () => {
         </div>
       </div>
       {/* part-2 kuber */}
-      <div className="flex flex-wrap items-center sm:border-t-2 border-[##595959] mx-10 justify-between py-2 sm:py-20 md:px-20">
-        <div className="font-[Lufga-ExtraBold-2] text-[1.5rem] sm:text-[2.3rem] text-black sm:px-6 w-full md:w-1/2 flex flex-wrap">
+      <div className="flex flex-wrap items-center sm:border-t-2 border-[##595959] lg:mx-10 md:mx-2  justify-between py-2 sm:py-20 md:px-2 lg:px-20">
+        <div className="font-[Lufga-ExtraBold-2] text-[1.5rem] sm:text-[2.3rem] text-black lg:px-6 w-full md:w-1/2 flex flex-wrap">
           <p className="pb-4">
             Worried about multi-cloud{" "}
             <span className="text-[#100EEE]">complexities</span> ? Our
@@ -195,11 +195,11 @@ const MultiCloud = () => {
         </div>
       </div>
       {/* Kuber */}
-      <div className="bg-[#100EEE] p-6 md:p-20 mx-2 md:mx-10 text-[#ffffff]">
+      <div className="bg-[#100EEE] p-6 lg:p-20 mx-2 lg:mx-10 text-[#ffffff]">
         <p className="pb-8 font-[Lufga-Regular-2] ">
           Forget about the complexities
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center">
           <div>
             <p className="font-[Lufga-ExtraBold-2] text-[1.5rem] md:text-[2.3rem]">
               Short-comings you say? We see better service delivery for
@@ -208,7 +208,7 @@ const MultiCloud = () => {
           </div>
           <div></div>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 justify-center items-center gap-[3rem] py-10">
+        <div className="grid grid-cols-2 lg:grid-cols-3 justify-center items-center gap-[3rem] py-10">
           <div>
             <img
               src="https://raw.githubusercontent.com/c4coderandcreator/tKube/main/Image%20Resource/Multi-Cloud/management%201.png"
@@ -261,10 +261,10 @@ const MultiCloud = () => {
       </div>
       {/* Migrate */}
       <div>
-        <div className="mx-2 md:mx-24">
+        <div className="mx-2 md:mx-7 lg:mx-24">
           <div className="flex items-center  border-[#D9D9D9] mb-6 pb-4 "></div>
         </div>
-        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:px-24">
+        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:mx-7 lg:mx-24">
           <div className="font-[Lufga-ExtraBold-2] text-[2.3rem] text-black px-6 w-full md:w-1/2 flex flex-wrap">
             <p></p>
           </div>
@@ -276,7 +276,7 @@ const MultiCloud = () => {
                   <p>
                     <span className="text-[#100EEE]">Regardless </span>of your{" "}
                     <span className="text-[#100EEE]">
-                      cloud <br className="hidden sm:block" />
+                      cloud <br className="hidden lg:block" />
                     </span>{" "}
                     provider we’ve got it
                   </p>
@@ -285,7 +285,7 @@ const MultiCloud = () => {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-3 gap-1 m-2 sm:mx-8 md:mx-24 sm:grid-cols-4 md:grid-cols-5 ">
+        <div className="grid grid-cols-3 gap-1 m-2 sm:mx-8 md:mx-7 lg:mx-24 sm:grid-cols-4 md:grid-cols-5 ">
           <img
             className="h-20 w-20 md:h-40 md:w-40"
             src="https://raw.githubusercontent.com/c4coderandcreator/tKube/5450d691b55018be3fb4fa69aaf7e37b5d3d1dbe/Image%20Resource/Home%20Resources/Group%2020.svg"

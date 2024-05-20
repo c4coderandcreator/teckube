@@ -12,7 +12,7 @@ const PrivacyPolicy = () => {
           Document amended December 1, 2023
         </p>
       </div>
-      <div className="grid  grid-cols-3 sm:mx-20 px-10 pt-2 sm:pt-10 font-[Lufga-Light-2]">
+      <div className="grid  grid-cols-3 md:mx-4 lg:mx-20 px-10 pt-2 sm:pt-10 font-[Lufga-Light-2]">
         <div className=" col-span-1 hidden sm:block">
           <p className="py-6 font-[Lufga-Bold-2] text-black">Our Policy</p>
           <p className="py-6 font-[Lufga-Bold-2] text-black">

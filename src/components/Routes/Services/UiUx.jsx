@@ -8,14 +8,14 @@ const UiUx = () => {
   return (
     <>
       {/* first */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-1 sm:gap-5 ml-4 sm:ml-20">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-1 sm:gap-5 ml-4 md:ml-10 lg:ml-20">
         <div className="sm:mt-[1.5rem]">
           <p className="font-extrabold text-left text-[2.2rem] md:text-[3.8rem] leading-[2.7rem] md:leading-[4.7rem] gradient-text">
             Giving you longer user retention rates with delightful interfaces
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 sm:ml-20 text-black font-[Lufga-Regular-2]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 md:ml-10 lg:ml-20 text-black font-[Lufga-Regular-2]">
         <div className=" py-10">
           <p className="mx-4 sm:mx-1">
             Every design has an effect. Every individual combination of colour,
@@ -62,7 +62,7 @@ const UiUx = () => {
       </div>
       {/* second */}
       <div>
-        <div className="mx-2 md:mx-24">
+        <div className="mx-2 md:mx-7 lg:mx-24">
           <div className="flex items-center border-b border-black mb-6 pb-4 ">
             <Dot />
             <p className="ml-2 text-black font-[Lufga-Bold-2] ">
@@ -70,7 +70,7 @@ const UiUx = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:px-24">
+        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:mx-7 lg:mx-24">
           <div className="font-[Lufga-ExtraBold-2] text-[2.3rem] text-black px-6 w-full md:w-1/2 flex flex-wrap">
             <p>
               Quit the <span className="text-[#100EEE]">guessing</span>, game on{" "}
@@ -128,10 +128,10 @@ const UiUx = () => {
       </div>
       {/* Migrate */}
       <div>
-        <div className="mx-2 md:mx-24">
+        <div className="mx-2 md:mx-7 lg:mx-24">
           <div className="flex items-center  border-[#D9D9D9] mb-6 pb-4 "></div>
         </div>
-        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:px-24">
+        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md;px-7 lg:px-24">
           <div className="font-[Lufga-ExtraBold-2] text-[2.3rem] text-black px-6 w-full md:w-1/2 flex flex-wrap">
             <p></p>
           </div>
@@ -142,7 +142,7 @@ const UiUx = () => {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-3 gap-1 m-2 sm:mx-8 md:mx-24 sm:grid-cols-4 md:grid-cols-8 ">
+        <div className="grid grid-cols-3 gap-1 m-2 lg:mx-8 md:mx-24 md:grid-cols-4 lg:grid-cols-8 ">
           <img
             className="h-20 w-20 md:h-40 md:w-40"
             src="https://raw.githubusercontent.com/c4coderandcreator/tKube/main/Image%20Resource/UiUX/Group%2020.png"
@@ -186,7 +186,7 @@ const UiUx = () => {
         </div>
       </div>
       {/* second */}
-      <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:px-24">
+      <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:mx-7 lg:mx-24">
         <div className=" text-[#595959] font-[Lufga-Regular-2] text-[1rem] px-6 md:w-1/2 flex flex-wrap items-center">
           <img
             className="hidden md:block"
@@ -249,9 +249,9 @@ const UiUx = () => {
         </div>
       </div>
       {/* third */}
-      <div className="bg-[#100EEE] p-6 md:p-20 mx-2 md:mx-10 text-[#ffffff]">
+      <div className="bg-[#100EEE] p-6 md:p-20 mx-2 lg:mx-10 text-[#ffffff]">
         <p className="pb-8 font-[Lufga-Regular-2] ">Our process</p>
-        <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center">
           <div>
             <p className="font-[Lufga-ExtraBold-2] text-[1.8rem] md:text-[2.3rem]">
               Our UI/UX design process helps get you from start to finish on
@@ -260,7 +260,7 @@ const UiUx = () => {
           </div>
           <div></div>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 justify-center items-center gap-[1.9rem] py-10">
+        <div className="grid grid-cols-2 lg:grid-cols-3 justify-center items-center gap-[1.9rem] py-10">
           <div>
             <img
               src="https://raw.githubusercontent.com/c4coderandcreator/tKube/main/Image%20Resource/UiUX/empathise.png"

@@ -47,15 +47,15 @@ const ContactUs = () => {
 
   return (
     <>
-      <div className="flex mx-6 sm:mx-10 justify-between">
+      <div className="flex mx-6 lg:mx-10 md:justify-center lg:justify-between">
         <div>
           <img
-            className="hidden sm:block"
+            className="hidden md:hidden lg:block"
             src="https://raw.githubusercontent.com/c4coderandcreator/tKube/main/Image%20Resource/Contact%20us/Image.png"
             alt="img"
           />
         </div>
-        <div className="text-black sm:p-16 sm:w-[50vw]">
+        <div className="text-black md:p-6 lg:p-16 md:w-[80vw] lg:w-[50vw]">
           <p className=" font-[Lufga-Bold-2] text-[2.25rem] py-1">
             Let’s <span className="text-[#001eee]">bring</span> your digital{" "}
             <br /> products to <span className="text-[#001eee]">life</span>
@@ -68,7 +68,7 @@ const ContactUs = () => {
             </span>
           </p>
           <form
-            className="font-[Lufga-Regular-2] flex flex-col justify-center align-middle p-2 md:p-6 rounded-md"
+            className="font-[Lufga-Regular-2] flex flex-col justify-center align-middle p-2 lg:p-6 rounded-md"
             ref={form}
             onSubmit={sendEmail}
           >
@@ -265,18 +265,22 @@ const ContactUs = () => {
           </p>
         </div>
         <div className="flex flex-col mr-28">
-          <p className="font-[Lufga-Bold-2] text-[1.5rem]">Phone</p>
+          <p className="font-[Lufga-Bold-2] text-[1.5rem] md:pb-4 lg:pb-0">
+            Phone
+          </p>
           <p>+1 (833) TecKube</p>
           <p>+1 (833) 832-5823</p>
         </div>
         <div className="flex flex-col mr-32 mt-4 sm:mt-0">
-          <p className="font-[Lufga-Bold-2] text-[1.5rem]">Fax</p>
+          <p className="font-[Lufga-Bold-2] text-[1.5rem] md:pb-4 lg:pb-0">
+            Fax
+          </p>
           <p>+1 (833) 832-5800</p>
         </div>
       </div>
 
       {/* second */}
-      <div className="text-black font-[Lufga-Regular-2] grid sm:grid-cols-3 gap-4 pb-4 sm:pb-8 pt-10 px-6 sm:px-0">
+      <div className="text-black font-[Lufga-Regular-2] grid sm:grid-cols-3 gap-4 pb-4 sm:pb-8 pt-10 px-6 md:px-8 lg:px-0">
         <div className="justify-self-start sm:justify-self-center">
           <p>
             Our locations <br />{" "}
@@ -304,7 +308,7 @@ const ContactUs = () => {
         </div>
       </div>
       {/* third */}
-      <div className="text-black font-[Lufga-Regular-2] grid sm:grid-cols-3 gap-4 pb-10 px-6 sm:px-0">
+      <div className="text-black font-[Lufga-Regular-2] grid sm:grid-cols-3 gap-4 pb-10 px-6 md:px-8 lg:px-0">
         <div className="justify-self-start sm:justify-self-center mr-20">
           <p>
             <span className="font-[Lufga-Bold-2] text-[1.2rem] sm:text-[1.5rem]">

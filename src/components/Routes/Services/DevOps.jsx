@@ -8,14 +8,14 @@ const DevOps = () => {
   return (
     <>
       {/* first */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-1 sm:gap-5 ml-4 sm:ml-20">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-1 sm:gap-5 ml-4 md:ml-10 lg:ml-20">
         <div className="sm:mt-[1.5rem]">
           <p className="font-extrabold text-left text-[2.2rem] md:text-[3.8rem] leading-[2.7rem] md:leading-[4.7rem] gradient-text">
             Helping you deliver quality software to users as quickly as possible
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 sm:ml-20 text-black font-[Lufga-Regular-2]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 md:ml-10 lg:ml-20 text-black font-[Lufga-Regular-2]">
         <div className=" py-10">
           <p className="mx-4 sm:mx-1">
             Let’s help you build your DevOps toolchain tailored to your
@@ -33,14 +33,14 @@ const DevOps = () => {
             alt="img"
           />
         </div>
-        <div className="col-span-4 row-span-2 place-self-start">
+        <div className="col-span-4 row-span-2  place-self-start">
           <img
             className="rounded-lg"
             src="https://raw.githubusercontent.com/c4coderandcreator/tKube/main/Image%20Resource/DevOps/Rectangle%201-2.png"
             alt="img"
           />
         </div>
-        <div className="col-span-1 place-self-stretch hidden sm:block">
+        <div className="col-span-1 place-self-stretch hidden lg:block">
           <img
             className="rounded-lg"
             src="https://raw.githubusercontent.com/c4coderandcreator/tKube/main/Image%20Resource/DevOps/Rectangle%201-1.png"
@@ -63,7 +63,7 @@ const DevOps = () => {
             />
           </div>
         </div>
-        <div className="col-span-1 place-self-stretch sm:-translate-x-40 hidden sm:block">
+        <div className="col-span-1 place-self-stretch sm:-translate-x-40 hidden lg:block">
           <img
             className="rounded-lg"
             src="https://raw.githubusercontent.com/c4coderandcreator/tKube/main/Image%20Resource/DevOps/Rectangle%201-4.png"
@@ -73,7 +73,7 @@ const DevOps = () => {
       </div>
       {/* second */}
       <div>
-        <div className="mx-2 md:mx-24">
+        <div className="mx-2 md:mx-7 lg:mx-24">
           <div className="flex items-center border-b border-black mb-6 pb-4 ">
             <Dot />
             <p className="ml-2 text-black font-[Lufga-Bold-2] ">
@@ -81,14 +81,14 @@ const DevOps = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:px-24">
+        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:mx-7 lg:mx-24">
           <div className="font-[Lufga-ExtraBold-2] text-[2.3rem] text-black px-6 w-full md:w-1/2 flex flex-wrap">
             <p>
               We have a track <span className="text-[#100EEE]">record</span> of{" "}
-              <br className="hidden sm:block" />
+              <br className="hidden lg:block" />
               <span className="text-[#100EEE]"> strong</span> and visible
               <span className="text-[#100EEE]"> success </span>in{" "}
-              <br className="hidden sm:block" /> DevOps practices
+              <br className="hidden lg:block" /> DevOps practices
             </p>
           </div>
           <div className=" text-[#595959] font-[Lufga-Regular-2] text-[1rem] px-6 md:w-1/2 flex flex-wrap items-center">
@@ -138,11 +138,11 @@ const DevOps = () => {
         </div>
       </div>
       {/* third */}
-      <div className="bg-[#100EEE] p-6 md:p-20 mx-2 md:mx-10 text-[#ffffff]">
+      <div className="bg-[#100EEE] p-6 lg:p-20 mx-2 lg:mx-10 text-[#ffffff]">
         <p className="pb-8 font-[Lufga-Regular-2] ">
           Harness the power of DevOps
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center">
           <div>
             <p className="font-[Lufga-ExtraBold-2] text-[1.8rem] md:text-[2.3rem]">
               We are ready to help you put valuable software in the hands of
@@ -151,7 +151,7 @@ const DevOps = () => {
           </div>
           <div></div>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 justify-center items-center gap-[3rem] py-10">
+        <div className="grid grid-cols-2 lg:grid-cols-3 justify-center items-center gap-[3rem] py-10">
           <div>
             <img
               src="https://raw.githubusercontent.com/c4coderandcreator/tKube/main/Image%20Resource/DevOps/engineer%201.png"
@@ -201,7 +201,7 @@ const DevOps = () => {
       </div>
       {/* forth */}
       <div className="mt-6 sm:mt-20">
-        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:px-20">
+        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:px-2 lg:px-20">
           <div className="font-[Lufga-ExtraBold-2] text-[2.3rem] text-black px-6 w-full md:w-1/2 flex flex-wrap">
             <p className="font-[Lufga-Light-2] text-[1rem] py-6">
               Strong partnerships lead to strong cloud collaborations
@@ -211,7 +211,7 @@ const DevOps = () => {
         </div>
       </div>
       {/* Next Part */}
-      <div className="grid grid-cols-2 md:grid-cols-6 mr-2 sm:mx-10 sm:gap-4 place-items-center text-center text-black font-[Lufga-Light-2] mb-6">
+      <div className="grid grid-cols-2 md:grid-cols-6 mr-2 md:mx-2 lg:mx-10 sm:gap-4 place-items-center text-center text-black font-[Lufga-Light-2] mb-6">
         <div className="sm:p-6">
           <img
             className="sm:mx-8 py-4"

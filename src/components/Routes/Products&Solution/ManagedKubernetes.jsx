@@ -8,14 +8,14 @@ const ManagedKubernetes = () => {
   return (
     <>
       {/* first */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-1 sm:gap-5 ml-4 sm:ml-40">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-1 sm:gap-5 ml-4 md:ml-10 lg:ml-40">
         <div className=" sm::mt-[1.5rem]">
-          <p className="font-extrabold text-left text-[2.2rem] md:text-[3.8rem] leading-[2.7rem] md:leading-[4.7rem] gradient-text">
+          <p className="font-extrabold text-left text-[2.2rem] md:text-[2.8rem] lg:text-[3.8rem] leading-[2.7rem] md:leading-[3.1rem] lg:leading-[4.7rem] gradient-text">
             Scale to meet business needs with our managed Kubernetes Service
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 sm:ml-40 text-black font-[Lufga-Regular-2]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 md:ml-10 lg:ml-40 text-black font-[Lufga-Regular-2]">
         <div className=" py-10">
           <p className="mx-4 sm:mx-1">
             As a leading Kubernetes consultancy, our experts provide unique
@@ -26,7 +26,7 @@ const ManagedKubernetes = () => {
         </div>
       </div>
       {/* second */}
-      <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:px-24">
+      <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:px-2 lg:px-24">
         <div className=" text-[#595959] font-[Lufga-Regular-2] text-[1rem] px-6 md:w-1/2 flex flex-wrap items-center">
           <img
             className="hidden md:block"
@@ -89,7 +89,7 @@ const ManagedKubernetes = () => {
         </div>
       </div>
       {/* third */}
-      <div className="bg-[#100EEE] p-6 md:p-20 mx-2 md:mx-10 text-[#ffffff]">
+      <div className="bg-[#100EEE] p-6  md:p-6 lg:p-20 mx-2 md:mx-4 lg:mx-10 text-[#ffffff]">
         <p className="pb-8 font-[Lufga-Regular-2] ">
           Retain customers and focus on the business
         </p>
@@ -152,7 +152,7 @@ const ManagedKubernetes = () => {
         </div>
       </div>
       {/* fourth */}
-      <div className="flex flex-wrap items-center justify-between py-2 sm:py-20 md:px-24">
+      <div className="flex flex-wrap items-center justify-between py-2 sm:py-20 md:px-7 lg:px-24">
         <div className="font-[Lufga-ExtraBold-2] text-[2.3rem] text-black px-6 w-full md:w-1/2 flex flex-wrap">
           <p>
             Our <span className="text-[#100EEE]">experienced</span> &
@@ -209,10 +209,10 @@ const ManagedKubernetes = () => {
         </div>
       </div>
       <div>
-        <div className="mx-2 md:mx-24">
+        <div className="mx-2 md:px-7 lg:px-24">
           <div className="flex items-center border-b border-[#D9D9D9] mb-6 pb-4 "></div>
         </div>
-        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:px-24">
+        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:px-7 lg:px-24">
           <div className="font-[Lufga-ExtraBold-2] text-[2.3rem] text-black px-6 w-full md:w-1/2 flex flex-wrap">
             <p></p>
           </div>
@@ -230,7 +230,7 @@ const ManagedKubernetes = () => {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-3 gap-5 m-2 sm:mx-8 md:mx-20 sm:grid-cols-3 md:grid-cols-5 pb-10 ">
+        <div className="grid grid-cols-3 gap-5 m-2 sm:mx-8 md:mx-20 sm:grid-cols-3 md:grid-cols-5 sm:pb-10 md:pb-2 lg:pb-10 ">
           <img
             className="h-20 w-20 md:h-40 md:w-40 sm:col-start-2"
             src="https://raw.githubusercontent.com/c4coderandcreator/tKube/5450d691b55018be3fb4fa69aaf7e37b5d3d1dbe/Image%20Resource/Home%20Resources/Group%2053.svg"

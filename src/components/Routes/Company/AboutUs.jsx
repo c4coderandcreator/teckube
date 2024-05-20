@@ -317,7 +317,7 @@ const AboutUs = () => {
         </div>
       </div>
       {/* FooterTop */}
-      <div className="flex flex-wrap items-center justify-between pb-6 sm:pb-1 py-2 md:py-8 md:px-24">
+      <div className="flex flex-wrap items-center justify-between pb-6 sm:pb-1 py-2 md:py-8 md:px-7 lg:px-24">
         <div className="font-[Lufga-ExtraBold-2] text-[2.1rem] text-black px-6 w-full md:w-1/2 flex flex-wrap">
           <p>
             <span className="text-black"> Ultimately </span>

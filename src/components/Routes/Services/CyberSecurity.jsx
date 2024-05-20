@@ -8,14 +8,14 @@ const CyberSecurity = () => {
   return (
     <>
       {/* first */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-1 sm:gap-5 ml-4 sm:ml-20">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-1 sm:gap-5 ml-4 md:ml-10 lg:ml-20">
         <div className="sm:mt-[1.5rem]">
           <p className="font-extrabold text-left text-[2.2rem] md:text-[3.8rem] leading-[2.7rem] md:leading-[4.7rem] gradient-text">
             Unmatched Information Security Solutions For All Enterprises
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 sm:ml-20 text-black font-[Lufga-Regular-2]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 md:ml-10 lg:ml-20 text-black font-[Lufga-Regular-2]">
         <div className=" py-10">
           <p className="mx-4 sm:mx-1">
             We provide organizations with proven expertise, tailored solutions
@@ -33,7 +33,7 @@ const CyberSecurity = () => {
       </div>
       {/* second */}
       <div>
-        <div className="mx-2 md:mx-24">
+        <div className="mx-2 md:mx-7 lg:mx-24">
           <div className="flex items-center border-b border-black mb-6 pb-4 ">
             <Dot />
             <p className="ml-2 text-black font-[Lufga-Bold-2] ">
@@ -41,13 +41,13 @@ const CyberSecurity = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:px-24">
-          <div className="font-[Lufga-ExtraBold-2] text-[2.3rem] text-black px-6 w-full md:w-1/2 flex flex-wrap">
+        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:mx-7 lg:mx-24">
+          <div className="font-[Lufga-ExtraBold-2] text-[2.3rem] text-black px-6 md:px-2 lg:px-6 w-full md:w-1/2 flex flex-wrap">
             <p>
               Helping organizations{" "}
               <span className="text-[#100EEE]">fight </span>daily growing
               <span className="text-[#100EEE]"> threats</span>, incidents and
-              <br className="hidden sm:block" />
+              <br className="hidden lg:block" />
               actual
               <span className="text-[#100EEE]"> cybercrime</span>.
             </p>
@@ -99,15 +99,15 @@ const CyberSecurity = () => {
         </div>
       </div>
       {/* second */}
-      <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:px-24">
+      <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:mx-7 lg:mx-24">
         <div className=" text-[#595959] font-[Lufga-Regular-2] text-[1rem] px-6 md:w-1/2 flex flex-wrap items-center">
           <img
-            className="hidden md:block"
+            className="hidden lg:block"
             src="https://raw.githubusercontent.com/c4coderandcreator/tKube/main/Image%20Resource/CyberSecurity/2.jpeg"
             alt="img"
           />
         </div>
-        <div className="font-[Lufga-ExtraBold-2] text-[2.3rem] text-black px-6 w-full md:w-1/2 flex flex-wrap">
+        <div className="font-[Lufga-ExtraBold-2] text-[2.3rem] text-black px-6 w-full lg:w-1/2 flex flex-wrap">
           <p>
             Our Information Security / ISO Standards Consulting and Solutions
           </p>
@@ -154,8 +154,8 @@ const CyberSecurity = () => {
         </div>
       </div>
       {/* third */}
-      <div className="mt-20">
-        <div className="flex flex-wrap justify-between py-2 md:py-8 px-4 md:px-24">
+      <div className="mt-20 md:mt-0 lg:mt-20">
+        <div className="flex flex-wrap justify-between py-2 md:py-8 px-4 md:mx-7 lg:mx-24">
           <div className="hidden sm:block"></div>
           <div className="font-[Lufga-ExtraBold-2] text-[2.3rem] text-black w-full flex flex-wrap">
             <p>
@@ -165,7 +165,7 @@ const CyberSecurity = () => {
             </p>
           </div>
         </div>
-        <div className="pb-14 grid grid-cols-1 sm:grid-cols-3 place-items-center gap-2 text-black">
+        <div className="pb-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-2 text-black">
           <div className="w-96 h-[30.75rem] shadow-md p-4 rounded-lg">
             <img
               src="https://raw.githubusercontent.com/c4coderandcreator/tKube/main/Image%20Resource/CyberSecurity/3.png"
@@ -258,7 +258,7 @@ const CyberSecurity = () => {
       </div>
       {/* forth */}
       <div className="sm:mt-20">
-        <div className="mx-2 md:mx-24 mt-4">
+        <div className="mx-2 md:mx-7 lg:mx-24 mt-4">
           <div className="flex items-center border-b border-[#595959] mb-6 pb-4 ">
             <Dot />
             <p className="ml-2 text-black font-[Lufga-Bold-2] ">
@@ -266,14 +266,14 @@ const CyberSecurity = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:px-20">
+        <div className="flex flex-wrap items-center justify-between py-2 md:py-8 md:px-7 lg:px-20">
           <div className="font-[Lufga-ExtraBold-2] text-[2.3rem] text-black px-6 w-full md:w-1/2 flex flex-wrap">
             <p>Our Partners</p>
           </div>
         </div>
       </div>
       {/* Next Part */}
-      <div className="grid grid-cols-2 md:grid-cols-8 mr-2 sm:mx-10 sm:gap-4 place-items-center text-center text-black font-[Lufga-Light-2] mb-6">
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 mr-2 sm:mx-10 sm:gap-4 place-items-center text-center text-black font-[Lufga-Light-2] mb-6">
         <div className="sm:p-6">
           <img
             className="sm:mx-8 py-4 h-[95px] sm:h-[150px] w-[95px] sm:w-[150px]"
