@@ -11,8 +11,8 @@ const Footer = () => {
 
   return (
     <>
-      <div className="mx-2 px-6 md:mx-2 lg:mx-10 py-8 md:py-14 justify-start md:justify-center grid grid-cols-2 md:grid-cols-4 lg:grid-cols-2  md:flex md:flex-wrap gap-6 md:gap-2 lg:gap-24 bg-[#001eee] text-white">
-        <div className="lg:px-4 md:mr-4">
+      <div className="mx-2 px-6 md:px-6 lg:px-24 py-8 md:py-14 justify-start md:justify-between grid grid-cols-2 md:grid-cols-4 lg:grid-cols-2  md:flex md:flex-wrap gap-6 md:gap-2 lg:gap-10 bg-[#001eee] text-white">
+        <div className=" md:mr-2">
           <ul>
             <span className="text-[1.25rem] md:text-[1.5rem] font-[Lufga-Bold-2]">
               Company
@@ -44,7 +44,7 @@ const Footer = () => {
             </Link>
           </ul>
         </div>
-        <div className="lg:px-4 md:mr-4">
+        <div className=" md:mr-2">
           <ul>
             <span className="text-[1.25rem] md:text-[1.5rem] font-[Lufga-Bold-2] ">
               Products
@@ -64,12 +64,12 @@ const Footer = () => {
               <li className="text-[0.75rem] md:text-[1rem] font-[Lufga-Light-2] pb-1 md:pb-4">
                 Custom API <br className="hidden md:block lg:hidden" />{" "}
                 development <br />
-                <span className="md:hidden">services</span>
+                <span className="">services</span>
               </li>
             </Link>
           </ul>
         </div>
-        <div className="lg:px-4 md:mr-4">
+        <div className=" md:mr-2">
           <ul>
             <span className="text-[1.25rem] md:text-[1.5rem] font-[Lufga-Bold-2]">
               Services
@@ -117,7 +117,7 @@ const Footer = () => {
             </Link>
           </ul>
         </div>
-        <div className="lg:px-4">
+        <div className="">
           <ul>
             <span className="text-[1.25rem] md:text-[1.5rem] font-[Lufga-Bold-2]">
               Contact Us

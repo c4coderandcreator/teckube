@@ -516,10 +516,10 @@ const Home = () => {
             </p>
           </div>
           <div className="mx-2 flex flex-col items-center justify-center sm:border-r-[1px] border-gray-300">
-            <p className="text-[2.1rem] md:text-[3.75rem] text-[#100EEE] font-[Lufga-Bold-2]">
+            <p className="lg:pr-3 text-[2.1rem] md:text-[3.75rem] text-[#100EEE] font-[Lufga-Bold-2]">
               {isVisible && <CountUp end={600} />}%
             </p>
-            <p className="text-black font-[Lufga-Light-2] text-[0.8rem] text-center">
+            <p className="text-black lg:pr-3 font-[Lufga-Light-2] text-[0.8rem] text-center">
               Return on investment
             </p>
           </div>
