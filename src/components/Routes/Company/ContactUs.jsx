@@ -309,12 +309,13 @@ const ContactUs = () => {
       </div>
       {/* third */}
       <div className="text-black font-[Lufga-Regular-2] grid sm:grid-cols-3 gap-4 pb-10 px-6 md:px-8 lg:px-0">
-        <div className="justify-self-start sm:justify-self-center mr-20">
+        <div className="justify-self-start sm:justify-self-center mr-10">
           <p>
             <span className="font-[Lufga-Bold-2] text-[1.2rem] sm:text-[1.5rem]">
-              Canada
+              Nigeria
             </span>
-            <br /> 60 Atlantic Ave Suite 200 <br /> Toronto, ON M6K 1X9
+            <br /> 4th Floor, Churchgate Tower, <br /> Plot 473, Constitution
+            Ave <br /> Central Business District, <br /> Abuja, FCT, 900211
           </p>
         </div>
         <div className="justify-self-start sm:justify-self-center sm:ml-9">
@@ -324,7 +325,7 @@ const ContactUs = () => {
             </span>{" "}
             <br /> 1385/3, 3rd Floor, 4th Cross,
             <br /> Tulasi Theather Road, <br />
-            Marathahalli, Bangalore 560037
+            Marathahalli, Bangalore, 560037
           </p>
         </div>
         <div className="justify-self-start sm:justify-self-center ">
