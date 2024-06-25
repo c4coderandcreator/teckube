@@ -3,10 +3,24 @@ import Tick from "../../Tick/Tick";
 import { Link } from "react-router-dom";
 import FooterTop from "../../FooterTop/FooterTop";
 import ServiceBottom from "../../ServiceBottom/ServiceBottom";
+import { Helmet } from "react-helmet-async";
 
 const ManagedKubernetes = () => {
   return (
     <>
+      <Helmet>
+        <title>Managed Kubernetes Services | TecKube</title>
+        <meta
+          name="description"
+          content="Discover our Managed Kubernetes services to streamline your operations and scale efficiently with TecKube."
+        />
+        <meta
+          name="keywords"
+          content="Managed Kubernetes, TecKube Kubernetes, Kubernetes Services"
+        />
+        <link rel="canonical" href="https://teckube.io/managedKubernetes" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
       {/* first */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-1 sm:gap-5 ml-4 md:ml-10 lg:ml-40">
         <div className=" sm::mt-[1.5rem]">

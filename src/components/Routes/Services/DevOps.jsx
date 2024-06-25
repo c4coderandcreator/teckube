@@ -3,10 +3,24 @@ import { Link } from "react-router-dom";
 import Dot from "../../Dot/Dot";
 import ServiceBottom from "../../ServiceBottom/ServiceBottom";
 import FooterTop from "../../FooterTop/FooterTop";
+import { Helmet } from "react-helmet-async";
 
 const DevOps = () => {
   return (
     <>
+      <Helmet>
+        <title>DevOps Services | TecKube</title>
+        <meta
+          name="description"
+          content="Optimize your software development lifecycle with TecKube’s DevOps services."
+        />
+        <meta
+          name="keywords"
+          content="DevOps Services, TecKube DevOps, Software Development"
+        />
+        <link rel="canonical" href="https://teckube.io/devops" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
       {/* first */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-1 sm:gap-5 ml-4 md:ml-10 lg:ml-20">
         <div className="sm:mt-[1.5rem]">

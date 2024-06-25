@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <>
       <div
-        className="sticky top-0 bg-white z-50 navbar bg-white p-0 pb-10 sm:py-6 md:p-10"
+        className=" z-50 navbar bg-white p-0 pb-10 sm:py-6 md:p-10"
         onClick={hideDropdowns}
       >
         <div className="navbar-start">

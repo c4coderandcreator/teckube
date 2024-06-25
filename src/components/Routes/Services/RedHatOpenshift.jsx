@@ -3,10 +3,24 @@ import Dot from "../../Dot/Dot";
 import { Link } from "react-router-dom";
 import Tick from "../../Tick/Tick";
 import FooterTop from "../../FooterTop/FooterTop";
+import { Helmet } from "react-helmet-async";
 
 const RedHatOpenshift = () => {
   return (
     <>
+      <Helmet>
+        <title>Red Hat OpenShift Solutions | TecKube</title>
+        <meta
+          name="description"
+          content="Utilize Red Hat OpenShift with TecKube for an enterprise-grade Kubernetes solution."
+        />
+        <meta
+          name="keywords"
+          content="Red Hat OpenShift, TecKube OpenShift, Kubernetes Solution"
+        />
+        <link rel="canonical" href="https://teckube.io/redhatOpenshift" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
       {/* first */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-1 sm:gap-5 ml-4 md:ml-10 lg:ml-20">
         <div className="sm:mt-[1.5rem]">

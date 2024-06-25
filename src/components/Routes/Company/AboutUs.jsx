@@ -5,9 +5,23 @@ import Tick from "../../Tick/Tick";
 import LearnMore from "../../LearnMore/LearnMore";
 import { Link } from "react-router-dom";
 import Arrow from "../../Arrow/Arrow";
+import { Helmet } from "react-helmet-async";
 const AboutUs = () => {
   return (
     <>
+      <Helmet>
+        <title>About Us | TecKube</title>
+        <meta
+          name="description"
+          content="Learn more about TecKube, our mission, values, and the innovative solutions we provide globally."
+        />
+        <meta
+          name="keywords"
+          content="TecKube, About TecKube, TecKube Mission, TecKube Values"
+        />
+        <link rel="canonical" href="https://teckube.io/about" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-1 sm:gap-5 ml-4 sm:ml-20">
         <div className=" sm:mt-[1.5rem]">
           <p className="font-extrabold text-left text-[2.2rem] md:text-[2.8rem] lg:text-[3.8rem] leading-[2.7rem] md:leading-[3.1rem] lg:leading-[4.7rem] gradient-text">

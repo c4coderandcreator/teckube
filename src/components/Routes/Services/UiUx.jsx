@@ -3,10 +3,24 @@ import { Link } from "react-router-dom";
 import Dot from "../../Dot/Dot";
 import Tick from "../../Tick/Tick";
 import FooterTop from "../../FooterTop/FooterTop";
+import { Helmet } from "react-helmet-async";
 
 const UiUx = () => {
   return (
     <>
+      <Helmet>
+        <title>UX/UI Design Services | TecKube</title>
+        <meta
+          name="description"
+          content="Enhance user experience with TecKube’s professional UX/UI design services."
+        />
+        <meta
+          name="keywords"
+          content="UX/UI Design, TecKube UX, TecKube UI, User Experience Design"
+        />
+        <link rel="canonical" href="https://teckube.io/uiux" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
       {/* first */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-1 sm:gap-5 ml-4 md:ml-10 lg:ml-20">
         <div className="sm:mt-[1.5rem]">

@@ -2,10 +2,24 @@ import React from "react";
 import FooterTop from "../../FooterTop/FooterTop";
 import ServiceBottom from "../../ServiceBottom/ServiceBottom";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const MultiCloud = () => {
   return (
     <>
+      <Helmet>
+        <title>Multi-Cloud Solutions | TecKube</title>
+        <meta
+          name="description"
+          content="Explore TecKube’s multi-cloud solutions to enhance your business agility and resilience."
+        />
+        <meta
+          name="keywords"
+          content="Multi-Cloud Solutions, TecKube Multi-Cloud, Cloud Services"
+        />
+        <link rel="canonical" href="https://teckube.io/multiCloud" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
       {/* first */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-1 sm:gap-5 ml-4 md:ml-10 lg:ml-20">
         <div className=" sm:mt-[1.5rem]">

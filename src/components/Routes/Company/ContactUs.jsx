@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const ContactUs = () => {
   const form = useRef();
@@ -47,6 +48,19 @@ const ContactUs = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Contact Us | TecKube</title>
+        <meta
+          name="description"
+          content="Get in touch with TecKube. We're here to help you with our innovative solutions."
+        />
+        <meta
+          name="keywords"
+          content="TecKube Contact, TecKube Support, TecKube Help"
+        />
+        <link rel="canonical" href="https://teckube.io/contact" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
       <div className="flex mx-6 lg:mx-10 md:justify-center lg:justify-between">
         <div>
           <img

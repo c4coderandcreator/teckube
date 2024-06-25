@@ -6,6 +6,7 @@ import Tick from "../Tick/Tick";
 import { Link } from "react-router-dom";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -21,6 +22,19 @@ const Home = () => {
   }, [inView]);
   return (
     <>
+      <Helmet>
+        <title>TecKube | Providng Innovative IT Solutions</title>
+        <meta
+          name="description"
+          content="TecKube offers innovative solutions including Multi-Cloud, DevOps, Kubernetes, Red Hat OpenShift, Web & Mobile App Development, UX/UI Design, and Cyber Security."
+        />
+        <meta
+          name="keywords"
+          content="TecKube, Multi-Cloud, DevOps, Kubernetes, Red Hat OpenShift, Web Development, Mobile App Development, UX/UI Design, Cyber Security"
+        />
+        <link rel="canonical" href="https://teckube.io/" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
       <div className="mt-[2rem] md:mt-[1.5rem]">
         <p className="font-extrabold text-center text-[2.2rem] md:text-[3.8rem] leading-[2.7rem] md:leading-[4.7rem] gradient-text pb-[0.6rem]">
           Ideate. Code. Build.

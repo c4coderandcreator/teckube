@@ -3,10 +3,24 @@ import Tick from "../../Tick/Tick";
 import { Link } from "react-router-dom";
 import Dot from "../../Dot/Dot";
 import FooterTop from "../../FooterTop/FooterTop";
+import { Helmet } from "react-helmet-async";
 
 const CyberSecurity = () => {
   return (
     <>
+      <Helmet>
+        <title>Cyber Security Services | TecKube</title>
+        <meta
+          name="description"
+          content="Protect your business with TecKube’s comprehensive cyber security services."
+        />
+        <meta
+          name="keywords"
+          content="Cyber Security, TecKube Cyber Security, Cyber Protection"
+        />
+        <link rel="canonical" href="https://teckube.io/cyberSecurity" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
       {/* first */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-1 sm:gap-5 ml-4 md:ml-10 lg:ml-20">
         <div className="sm:mt-[1.5rem]">

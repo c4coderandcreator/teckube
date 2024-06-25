@@ -3,10 +3,24 @@ import { Link } from "react-router-dom";
 import Dot from "../../Dot/Dot";
 import ServiceBottom from "../../ServiceBottom/ServiceBottom";
 import FooterTop from "../../FooterTop/FooterTop";
+import { Helmet } from "react-helmet-async";
 
 const MigrateToCloud = () => {
   return (
     <>
+      <Helmet>
+        <title>Migrate to Cloud Services | TecKube</title>
+        <meta
+          name="description"
+          content="Seamlessly migrate to the cloud with TecKube’s comprehensive cloud migration services."
+        />
+        <meta
+          name="keywords"
+          content="Cloud Migration, Migrate to Cloud, TecKube Cloud Services"
+        />
+        <link rel="canonical" href="https://teckube.io/migrateToCloud" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
       {/* first */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-1 sm:gap-5 ml-4 md:ml-10 lg:ml-20">
         <div className="sm:mt-[1.5rem]">

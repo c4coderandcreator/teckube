@@ -4,10 +4,24 @@ import ServiceBottom from "../../ServiceBottom/ServiceBottom";
 import { Link } from "react-router-dom";
 import Dot from "../../Dot/Dot";
 import Tick from "../../Tick/Tick";
+import { Helmet } from "react-helmet-async";
 
 const CustomApi = () => {
   return (
     <>
+      <Helmet>
+        <title>Custom API Development | TecKube</title>
+        <meta
+          name="description"
+          content="Get custom API development services from TecKube to meet your unique business needs."
+        />
+        <meta
+          name="keywords"
+          content="Custom API Development, API Services, TecKube API"
+        />
+        <link rel="canonical" href="https://teckube.io/customApi" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
       {/* first */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-1 sm:gap-5 ml-4 md:ml-10 lg:ml-20">
         <div className="sm:mt-[1.5rem]">

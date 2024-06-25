@@ -5,10 +5,24 @@ import { Link } from "react-router-dom";
 import LearnMore from "../../LearnMore/LearnMore";
 import FooterTop from "../../FooterTop/FooterTop";
 import GetStarted from "../../GetStarted/GetStarted";
+import { Helmet } from "react-helmet-async";
 
 const MobileAppDevelopment = () => {
   return (
     <>
+      <Helmet>
+        <title>Mobile App Development Services | TecKube</title>
+        <meta
+          name="description"
+          content="TecKube offers mobile app development services to create high-performing mobile applications."
+        />
+        <meta
+          name="keywords"
+          content="Mobile App Development, TecKube Mobile Apps, Custom Mobile Applications"
+        />
+        <link rel="canonical" href="https://teckube.io/mobileApp" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
       {/* first */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-1 sm:gap-5 ml-4 md:ml-10 lg:ml-20">
         <div className="sm::mt-[1.5rem]">

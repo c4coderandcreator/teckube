@@ -1,10 +1,24 @@
 import React from "react";
 import FooterTop from "../../FooterTop/FooterTop";
 import Dot from "../../Dot/Dot";
+import { Helmet } from "react-helmet-async";
 
 const Careers = () => {
   return (
     <>
+      <Helmet>
+        <title>Careers at TecKube | Join Our Team</title>
+        <meta
+          name="description"
+          content="Explore career opportunities at TecKube. Join our team and help us deliver innovative solutions globally."
+        />
+        <meta
+          name="keywords"
+          content="TecKube Careers, TecKube Jobs, Work at TecKube"
+        />
+        <link rel="canonical" href="https://teckube.io/careers" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-1 sm:gap-5 ml-4 md:ml-14 lg:ml-40">
         <div className="sm:mt-[1.5rem]">
           <p className="font-extrabold text-left text-[2.2rem] md:text-[2.8rem] lg:text-[3.8rem] leading-[2.7rem] md:leading-[3.1rem] lg:leading-[4.7rem] gradient-text">

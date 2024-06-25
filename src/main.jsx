@@ -27,6 +27,7 @@ import UiUx from "./components/Routes/Services/UiUx";
 import CyberSecurity from "./components/Routes/Services/CyberSecurity";
 import PrivacyPolicy from "./components/Privacy/PrivacyPolicy";
 import Terms from "./components/Privacy/Terms";
+import { HelmetProvider } from "react-helmet-async";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -55,6 +56,8 @@ const router = createBrowserRouter(
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <HelmetProvider>
+      <RouterProvider router={router} />
+    </HelmetProvider>
   </React.StrictMode>
 );

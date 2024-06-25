@@ -2,10 +2,24 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Dot from "../../Dot/Dot";
 import FooterTop from "../../FooterTop/FooterTop";
+import { Helmet } from "react-helmet-async";
 
 const WebAppDevelopment = () => {
   return (
     <>
+      <Helmet>
+        <title>Web App Development Services | TecKube</title>
+        <meta
+          name="description"
+          content="Get custom web app development services from TecKube to boost your online presence."
+        />
+        <meta
+          name="keywords"
+          content="Web App Development, TecKube Web Development, Custom Web Apps"
+        />
+        <link rel="canonical" href="https://teckube.io/webApp" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
       {/* first */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-1 sm:gap-5 ml-4 md:ml-10 lg:ml-20">
         <div className="sm:mt-[1.5rem]">
