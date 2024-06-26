@@ -28,6 +28,9 @@ import CyberSecurity from "./components/Routes/Services/CyberSecurity";
 import PrivacyPolicy from "./components/Privacy/PrivacyPolicy";
 import Terms from "./components/Privacy/Terms";
 import { HelmetProvider } from "react-helmet-async";
+import ReactGA from "react-ga4";
+ReactGA.initialize("G-JFM4TXC69X");
+ReactGA.send({ hitType: "pageview", page: window.location.pathname });
 
 const router = createBrowserRouter(
   createRoutesFromElements(
